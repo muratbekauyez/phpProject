@@ -1,0 +1,101 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	background-color: #edeef0;
+}
+.profile-container {
+	display: flex;
+	width: 100%;
+	height: 42%;
+	margin: 42px;
+}
+.login-box {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5px;
+	font-size: 20px;
+
+}
+
+.ava-container {
+	float: left;
+	width: 250px;
+	max-height: 100%;
+	margin-right:50px;
+	padding: 15px;
+	background-color: white;
+	border-radius: 4px;
+}
+.ava-container img {
+	margin-left: 25px;
+}
+.logout-box {
+	display: flex;
+	justify-content: center;
+	margin: 5px;
+}
+
+.info-container {
+	display: flex;
+	float: left;
+	width: 700px;
+	max-height: 100%;
+	padding: 15px;
+	background-color: white;
+	border-radius: 4px;
+
+}
+.info-container table {
+ 	border-collapse: separate;
+  	border-spacing: 50px 0;
+}
+.info-container td {
+	text-transform: capitalize;
+	padding: 5px 50px;
+}
+.feed-container {
+	float: left;
+	width: 80%;
+	height: 100%;
+	margin-left: 42px;
+}
+.feed-caption {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.feed-caption a, #logout  {
+	border-radius: 3px;
+	border:0;
+	padding: 7px 16px 8px;
+	cursor: pointer;
+	font-size: 14px;
+    line-height: 15px;
+    background-color: #000000;
+    color: white;
+    opacity: 0.8;
+}
+.feed-caption a:hover , #logout:hover {
+	font-size: 16px;
+	opacity: 1;
+}
+.posts{
+	background-color: white;
+	border-radius: 4px;
+	padding: 10px;
+}
+.item-title {
+	border-radius: 3px;
+	border:0;
+	padding: 7px 16px 8px;
+	cursor: pointer;
+	font-size: 14px;
+    line-height: 15px;
+    background-color: #000000;
+    color: white;
+    opacity: 0.8;
+}
+.item-title:hover {
+	font-size: 16px;
+	opacity: 1;
+}
